@@ -1,0 +1,57 @@
+spring framework 5 beginner to guru 
+
+1. github - use it 
+2. sections have a starting branch - state of code beginning of lesson
+3. fork repos 
+4. intellij
+5. spring boot cookbook
+6. complete the course and follow along with code examples
+7. github- fork
+
+===============================================================
+
+course introduction
+
+1. 
+2.
+3.
+4.
+
+================================================================
+
+john thompson 
+
+================================================================
+
+dev environment for spring
+
+1. jdk 1.8 or higher
+2. maven 3.2.5 or higher installed
+3. gradle 3.4.1 installed
+4.
+5.
+6.
+7.
+
+=================================================================
+
+
+ide free like a puppy?
+
+==================================================================
+
+
+Free 120 day intellij idea trial 
+
+==================================================================
+
+whats new in spring framework 5 ?
+
+==================================================================
+
+getting help with spring framework?
+
+1. QnA
+2. 
+
+==================================================================
