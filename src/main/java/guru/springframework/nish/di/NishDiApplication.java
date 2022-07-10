@@ -1,9 +1,6 @@
 package guru.springframework.nish.di;
 
-import guru.springframework.nish.di.controllers.ConstructorInjectedController;
-import guru.springframework.nish.di.controllers.MyController;
-import guru.springframework.nish.di.controllers.PropertyInjectedController;
-import guru.springframework.nish.di.controllers.SetterInjectedController;
+import guru.springframework.nish.di.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -15,11 +12,15 @@ public class NishDiApplication {
 
 		ApplicationContext ctx =SpringApplication.run(NishDiApplication.class, args);
 
+		I18nController controller = (I18nController)ctx.getBean("i18nController");
+		System.out.println(controller.sayHello());
+
+
 		 MyController myController = (MyController)ctx.getBean("myController");
 
-	     String greeting = myController.sayHello();
 
-		System.out.println(greeting);
+		System.out.println("---- primary bean");
+		System.out.println(myController.sayHello());
 
 		System.out.println("---- property");
 

@@ -1,10 +1,8 @@
 package guru.springframework.nish.di.controllers;
 
-import guru.springframework.nish.di.services.GreetingServiceImpl;
+import guru.springframework.nish.di.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PropertyInjectedControllerTest {
 
@@ -15,7 +13,7 @@ class PropertyInjectedControllerTest {
     {
         controller = new PropertyInjectedController();
 
-        controller.greetingService = new GreetingServiceImpl();
+        controller.greetingService = new ConstructorGreetingService();
 
 
     }
